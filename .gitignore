@@ -1,0 +1,22 @@
+# macOS / Windows junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE folders
+.vscode/
+.idea/
+
+# Neovim
+*.swp
+*.swo
+*~
+.nvim/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Logs & temp
+*.log
+*.tmp

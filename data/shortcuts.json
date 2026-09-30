@@ -1,0 +1,44 @@
+[
+  { "keys": "i", "action": "Enter Insert mode", "category": "Modes" },
+  { "keys": "Esc", "action": "Return to Normal mode", "category": "Modes" },
+  { "keys": "v", "action": "Visual (select) mode", "category": "Modes" },
+  { "keys": ":", "action": "Command mode", "category": "Modes" },
+
+  { "keys": ":w", "action": "Save file", "category": "File" },
+  { "keys": ":wq", "action": "Save and quit", "category": "File" },
+  { "keys": ":q", "action": "Quit", "category": "File" },
+  { "keys": ":q!", "action": "Quit without saving", "category": "File" },
+  { "keys": "Ctrl+S", "action": "Quick save (LazyVim)", "category": "File" },
+
+  { "keys": "h j k l", "action": "Left / Down / Up / Right", "category": "Movement" },
+  { "keys": "w / b", "action": "Next / Previous word", "category": "Movement" },
+  { "keys": "gg / G", "action": "Top / Bottom of file", "category": "Movement" },
+  { "keys": "0 / $", "action": "Start / End of line", "category": "Movement" },
+  { "keys": "Ctrl+d / Ctrl+u", "action": "Page down / up", "category": "Movement" },
+
+  { "keys": "yy", "action": "Copy line", "category": "Editing" },
+  { "keys": "dd", "action": "Cut line", "category": "Editing" },
+  { "keys": "p / P", "action": "Paste below / above", "category": "Editing" },
+  { "keys": "u", "action": "Undo", "category": "Editing" },
+  { "keys": "Ctrl+r", "action": "Redo", "category": "Editing" },
+  { "keys": "cw", "action": "Change word", "category": "Editing" },
+  { "keys": "ciw", "action": "Change word under cursor", "category": "Editing" },
+  { "keys": "gcc", "action": "Comment/uncomment line", "category": "Editing" },
+
+  { "keys": "/word", "action": "Search in file", "category": "Search" },
+  { "keys": "n / N", "action": "Next / Previous match", "category": "Search" },
+  { "keys": ":%s/old/new/g", "action": "Replace all in file", "category": "Search" },
+  { "keys": "Space Space", "action": "Fuzzy find files", "category": "Search" },
+  { "keys": "Space /", "action": "Search across project", "category": "Search" },
+
+  { "keys": "Space e", "action": "Toggle file explorer", "category": "Navigation" },
+  { "keys": "Space ,", "action": "Switch buffers", "category": "Navigation" },
+  { "keys": "gd", "action": "Go to definition", "category": "Navigation" },
+  { "keys": "K", "action": "Hover docs", "category": "Navigation" },
+  { "keys": "Space gg", "action": "Open LazyGit", "category": "Navigation" },
+
+  { "keys": "Space ca", "action": "Code actions", "category": "LSP" },
+  { "keys": "Space cr", "action": "Rename symbol", "category": "LSP" },
+  { "keys": "Space cf", "action": "Format file", "category": "LSP" },
+  { "keys": "Space cd", "action": "Show diagnostics", "category": "LSP" }
+]
